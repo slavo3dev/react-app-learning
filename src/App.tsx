@@ -1,10 +1,11 @@
-import './App.css';
+import { Hero, Info } from "./Components";
 
 function App() {
-  return (
-    <div className="App">
-     <h1>Welcome to Slavo.io Mentorship</h1>
-    </div>
+    return (
+        <>
+          <Hero/>
+          <Info />
+        </>   
   );
 }
 
