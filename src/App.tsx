@@ -3,7 +3,7 @@ import { Hero, Info } from "./Components";
 function App() {
     return (
         <>
-          <Hero/>
+          <Hero />
           <Info />
         </>   
   );
