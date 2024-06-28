@@ -1,10 +1,13 @@
 import { Hero, Info } from "./Components";
+import { heroData } from "./lib";
 
-function App() {
+function App () {
+    
     return (
         <>
-          <Hero />
+          <Hero title={ heroData.title } text={heroData.text} />
           <Info />
+          <Hero title={ "Please learn React" } text={"lalalalala alalallala alalla "} />
         </>   
   );
 }

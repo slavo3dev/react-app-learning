@@ -1,9 +1,13 @@
-
 import "./Hero.styles.css"
 
 
-export const Hero = () => {
+
+export const Hero = ({title, text}: any) => {
+    
     return (
-            <h1 className="heroStyles">Welcome to SKILL OF CHANGE Program</h1>
+        <section className="heroStyles">
+            <h1>{title}</h1>
+            <p>{text}</p>
+        </section>
     );
 }
